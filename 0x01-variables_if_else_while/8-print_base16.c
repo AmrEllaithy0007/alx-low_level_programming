@@ -8,7 +8,7 @@
  **/
 int main(void)
 {
-	int dig = o;
+	int dig = 0;
 
 	while (dig < 10)
 	{
