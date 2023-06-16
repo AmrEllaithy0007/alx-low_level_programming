@@ -18,7 +18,7 @@ int main(void)
 	dig = 0;
 	while (dig < 6)
 	{
-		putchar(dig + '6');
+		putchar(dig + 'a');
 		dig++;
 	}
 	putchar('\n');
