@@ -1,14 +1,11 @@
 #include "main.h"
- /**
- * print_times_table - Entry point prints
- * time table of 0
- *
- * @n: value need to be printed
- *
- *
- *
- *
- **/
+
+/**
+*print_times_table  - Prints the time table
+* of the input starting with 0
+*
+*@n: value need to be printed
+*/
 
 void print_times_table(int n)
 {
