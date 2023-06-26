@@ -4,16 +4,16 @@
 /**
  *_strlen - Main Entry
  *
- *@str: str to return length
+ *@s: str to return length
  *
  *Return:The length of STR
  *
  **/
-size_t  _strlen(const char *str)
+int _strlen(char *s)
 {
-	size_t length = 0;
+	int length = 0;
 
-	while (*str++)
+	while (*s++)
 	length++;
 	return (length);
 }
