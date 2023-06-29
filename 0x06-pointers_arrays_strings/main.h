@@ -8,3 +8,4 @@ char *cap_string(char *);
 char *_strncpy(char *dest, char *src, int n);
 char *string_toupper(char *str);
 void print_number(int n);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
