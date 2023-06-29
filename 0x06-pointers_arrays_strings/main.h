@@ -7,3 +7,4 @@ char *string_toupper(char *);
 char *cap_string(char *);
 char *_strncpy(char *dest, char *src, int n);
 char *string_toupper(char *str);
+void print_number(int n);
