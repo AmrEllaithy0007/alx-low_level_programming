@@ -1,3 +1,4 @@
+#!/bin/bash
 Resources
 Read or watch:
 
