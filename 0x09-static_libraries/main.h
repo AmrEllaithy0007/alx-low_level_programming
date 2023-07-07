@@ -2,7 +2,7 @@
 #define MAIN_H
 #include <stdio.h>
 #include <unistd.h>
-
+void _puts(char str)
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
