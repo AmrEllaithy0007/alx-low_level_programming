@@ -1,18 +1,20 @@
-#include "main.h"
 #include <stdio.h>
+#define UNUSED(x)(void)(x)
 /**
- *main - Entry point
- *@argc: integr
- *@argv: char
- *Return: Always 0 (Success)
- **/
+ * main - prints argv
+ * @argc: int
+ * @argv: array of strings
+ * Return: each instance of argv
+ */
 int main(int argc, char *argv[])
 {
-	int i
+	int i;
 
-	for (i = 0; i < argc; i++)
+	i = 0;
+	while (i < argc)
 	{
 	printf("%s\n", argv[i]);
+	i++;
 	}
 	return (0);
 }
